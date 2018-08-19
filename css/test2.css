@@ -19,22 +19,43 @@ ul{
 	border: solid;
 	border-color: black;
 	border-width: 2px;
+	border-bottom: 3px;
 	text-align: center;
-	
-
+	font-family: 'Sawarabi Mincho', sans-serif;
 
 
 }
+#start{
+	color: orange;
+}
+#end{
+	color: orange;
+}
+img{
+	/*background-color: blue;*/
+	float: right;
+}
+.page1Text{
+	float: left;
+	width: 40vw;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	color: orange;
+}
+.page1Image{
+	float: left;
+	width: 50vw;
+}
+
 .main{
-	text-align: center;
+	/*text-align: center;*/
 	width: 100vw;
-float:left;
-/*background-color: red;*/
-padding-top: 10px;
-margin: 0;
-border: 0;
+	float:left;
+	/*background-color: red;*/
+	border-top: solid;
+	background-color: #fefffb;
 }
 body{
 	padding: 0;
 	margin: 0;
+	background-color: #fefffb;
 }

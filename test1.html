@@ -49,7 +49,7 @@
 					<h3>Illustrations by <a href="http://dribbble.com/kevinhowdeshell">Kevin Howdeshell</a></h3>
 					<div id="bb-bookblock" class="bb-bookblock">
 						<div class="bb-item">
-							<a href="http://drbl.in/bKVq"><img src="images/demo1/1.jpg" alt="image01"/></a>
+							<a href="http://drbl.in/bKVq"><img src="images/demo1/1.png" alt="image01"/></a>
 						</div>
 						<div class="bb-item">
 							<a href="http://drbl.in/ciTX"><img src="images/demo1/2.jpg" alt="image02"/></a>
@@ -127,18 +127,22 @@
 							return false;
 						} );
 						
-						// add swipe events
-						$slides.on( {
-							'swipeleft' : function( event ) {
-								config.$bookBlock.bookblock( 'next' );
-								return false;
-							},
-							'swiperight' : function( event ) {
-								config.$bookBlock.bookblock( 'prev' );
-								return false;
-							}
-						} );
 
+						//King - don't need swipe events
+						// // add swipe events
+						// $slides.on( {
+						// 	'swipeleft' : function( event ) {
+						// 		config.$bookBlock.bookblock( 'next' );
+						// 		return false;
+						// 	},
+						// 	'swiperight' : function( event ) {
+						// 		config.$bookBlock.bookblock( 'prev' );
+						// 		return false;
+						// 	}
+						// } );
+
+
+						//King - left right keys could be useful?...
 						// add keyboard events
 						$( document ).keydown( function(e) {
 							var keyCode = e.keyCode || e.which,

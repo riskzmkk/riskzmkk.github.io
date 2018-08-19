@@ -1,6 +1,6 @@
 .bb-bookblock {
 	width: 100vw;
-	height: 3000px;
+	height: 600px;
 	margin: 0 auto;
 	position: relative;
 	z-index: 100;
@@ -8,6 +8,7 @@
 	perspective: 1300px;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+
 }
 
 .bb-page {
@@ -80,6 +81,7 @@
 .bb-overlay, 
 .bb-flipoverlay {
 	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #fff9f5;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -89,7 +91,8 @@
 }
 
 .bb-flipoverlay {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: #fffaf5;
+	/*background-color: rgba(0, 0, 0, 0.2);*/
 }
 
 .bb-bookblock.bb-vertical > div.bb-page:first-child,
@@ -106,7 +109,8 @@
 
 /* Content display */
 .bb-content {
-	background: #fff;
+	background-color: #fefffb;
+	/*background: #fff;*/
 }
 
 .bb-vertical .bb-front .bb-content {
@@ -167,7 +171,8 @@
 	top: 0;
 	left: 0;
 	display: none;
-	background: #fff;
+	/*background: #fff;*/
+	background-color: #fefffb;
 }
 
 /* No JS */
