@@ -36,6 +36,7 @@ img{
 	float: right;
 }
 .page1Text{
+	padding: 3vh;
 	float: left;
 	width: 40vw;
 	font-family: 'Sawarabi Mincho', sans-serif;
@@ -47,15 +48,15 @@ img{
 }
 
 .main{
-	/*text-align: center;*/
+	text-align: center;
 	width: 100vw;
 	float:left;
 	/*background-color: red;*/
 	border-top: solid;
-	background-color: #fefffb;
+	background-color: #fffefe;
 }
 body{
 	padding: 0;
 	margin: 0;
-	background-color: #fefffb;
+	background-color: #fffefe;
 }
